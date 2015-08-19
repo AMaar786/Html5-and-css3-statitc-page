@@ -1,0 +1,188 @@
+
+/*
+***********************************
+*=header
+***********************************
+*/
+header
+{
+
+	overflow: hidden;
+}
+header h1
+{
+
+background: url(../img/logo.png) no-repeat;
+
+text-indent: -9999px;
+width:258px; 
+height:42px;
+float: left;
+margin: 10px 10px 20px;
+}
+
+/*
+***********************************
+*=nav
+***********************************
+*/
+
+nav a
+{
+
+	text-transform: lowercase;
+}
+
+nav li
+{
+	display: inline;
+	float: right;
+}
+
+/*
+***********************************
+*=banner
+***********************************
+*/
+.banner
+{
+
+	background: url(../img/bg.jpg) no-repeat;
+	width:800px;
+	height: 200px; 
+	position: relative;
+}
+#s1
+{
+	font-weight: normal;
+	width:400px;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	bottom: 80px;
+	left: 15px;
+	background: rgba(0,0,0,.2);
+}
+
+#s2
+{
+	font-weight: normal;
+	width:400px;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	bottom: 45px;
+	left: 15px;
+	background: rgba(0,0,0,.2);
+}
+
+#s3
+{
+	font-weight: normal;
+	width:400px;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	background: rgba(0,0,0,.2);
+}
+
+
+.callout
+{
+
+background: black;	
+height: 200px;	
+
+}
+/*
+***********************************
+*=main
+***********************************
+*/
+.main
+{
+	margin-top: 20px;
+}
+.main blockquote p:first-child:before
+{
+
+	content: '“';
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+.main blockquote p:last-child:after
+{
+
+	content: '”';
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+	float: right;
+}
+/*
+***********************************
+*=footer
+***********************************
+*/
+
+footer
+{
+clear: both;
+border-top: 1px solid #d1d1d1;
+padding-top: 18px;
+margin-top: 30px;
+}
+/*
+***********************************
+*=miscellenous
+***********************************
+*/
+
+a{
+
+	color: #7e7e7e;
+	text-decoration: none;
+}
+blockquote p
+{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+}
+
+a:hover,.selected{
+
+	color: black;
+}
+
+h1
+{
+	font-size: 26px;
+	letter-spacing: -1px; 
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom: 15px;  
+	line-height: 1em;
+}
+p
+{
+	line-height: 20px;
+	font-size: 13px;
+	font-family: arial;
+	color: #353535;
+}
+
+.button
+{
+padding: 6px;	
+background: #242324;
+
+}
+.button:hover
+{
+	color: white;
+}
